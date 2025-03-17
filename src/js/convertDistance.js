@@ -1,7 +1,6 @@
 function convertDistance(value, unit) {
     if(isNaN(value)) {
         throw new Error("Value must be a number");
-       
     }
 
     if(unit !== "km" && unit !== "cm") {
