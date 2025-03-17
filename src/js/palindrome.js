@@ -20,4 +20,4 @@ function isPalindromeUtil(s, left, right) {
     return isPalindromeUtil(s, left + 1, right - 1);
 }
 
-module.exports = {isPalindrome}
+module.exports = {isPalindrome};

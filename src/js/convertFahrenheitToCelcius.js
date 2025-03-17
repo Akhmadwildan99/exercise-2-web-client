@@ -6,4 +6,4 @@ function convertFahrenheitToCelcius(celcius) {
     return +c.toFixed(4);
 }
 
-module.exports = {convertFahrenheitToCelcius}
+module.exports = {convertFahrenheitToCelcius};
